@@ -1,0 +1,40 @@
+world:
+  height: 10
+  width: 10
+  step_time: 0.05
+  obstacle_map:
+    name: perlin
+    resolution: 0.1
+    complexity: 0.08
+    fill: 0.15
+    fractal: 1
+    attenuation: 0.5
+    seed: 2
+    border: true
+
+robot:
+- kinematics: {name: 'diff'}
+  shape: {name: 'circle', radius: 0.1}
+  state: [2.647, 0.807, 0]
+  goal: [9, 9, 0]
+  goal_threshold: 0.3
+  behavior: {name: 'dash',wander: 'false'}
+  vel_max: [3.0, 3.0]
+  sensors:
+  - name: lidar2d
+    range_min: 0
+    range_max: 5
+    angle_range: 6.28
+    number: 200
+    noise: true
+    std: 0.01
+    angle_std: 0.02
+    offset: [0, 0, 0]
+    alpha: 0.3
+  color: 'g'
+
+
+obstacle:
+  - shape: {name: 'linestring', vertices: [[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]}
+    state: [0, 0, 0]
+

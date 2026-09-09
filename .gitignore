@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 运行输出
+results/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store

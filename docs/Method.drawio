@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="3U5-8tDVqGEeNE5u_dOZ">
+    <mxGraphModel dx="692" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V2eXG86UrmerRzD9A_dn-6" edge="1" parent="1" source="V2eXG86UrmerRzD9A_dn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="V2eXG86UrmerRzD9A_dn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LiDAR" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-7" edge="1" parent="1" source="V2eXG86UrmerRzD9A_dn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V2eXG86UrmerRzD9A_dn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Occupancy Grid Mapping" vertex="1">
+          <mxGeometry height="60" width="160" x="190" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-9" edge="1" parent="1" source="V2eXG86UrmerRzD9A_dn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V2eXG86UrmerRzD9A_dn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Frontier Selection&lt;br/&gt;(Distance + Heading Cost)" vertex="1">
+          <mxGeometry height="60" width="175" x="182.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-18" edge="1" parent="1" source="V2eXG86UrmerRzD9A_dn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V2eXG86UrmerRzD9A_dn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hybrid Navigation Controller" vertex="1">
+          <mxGeometry height="60" width="140" x="200" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-19" edge="1" parent="1" source="V2eXG86UrmerRzD9A_dn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V2eXG86UrmerRzD9A_dn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="300" x="120" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Exploration  Light Tracking" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Obstacle Avoidance" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="V2eXG86UrmerRzD9A_dn-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Robot Motion" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="585" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
