@@ -43,5 +43,3 @@ python experiment_100.py
 # Braitenberg 行为仿真
 python ../braitenberg/main.py
 ```
-
-> 结果默认输出到 `src/results/`。代码中如需 Tcl/Tk 路径，请按注释说明改成你自己的 Python 安装目录。
